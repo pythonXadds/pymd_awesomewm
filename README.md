@@ -2,8 +2,12 @@
 My awesome wm configs
 
 
-You will need to install 
+You will need to install: 
 
-awesome fonts
+*awesome fonts
+
+follow this link:  https://awesomewm.org/recipes/awesome-taglist/
+
+there are instructions on how to install the font on the awesome website.
 
 
