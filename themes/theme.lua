@@ -1,6 +1,6 @@
 -------------------------------
 --  "pymd's" awesome theme  --
---    By Adam H. (anrxc)   --
+--    By Adam H.   --
 -------------------------------
 
 local themes_path = require("gears.filesystem").get_themes_dir()
@@ -16,19 +16,19 @@ theme.font      = "JetBrainsMono 10"
 
 -- {{{ Colors
 theme.fg_normal  = "#DCDCCC"
-theme.fg_focus   = "#FFFFF"
+theme.fg_focus   = "#7F9F7F"
 theme.fg_urgent  = "#CC9393"
 theme.bg_normal  = "#3E5D7C"
 theme.bg_focus   = "#3E5D7C"
-theme.bg_urgent  = "#3E5D7C"
+theme.bg_urgent  = "#7F9F7F"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.useless_gap   = dpi(4)
-theme.border_width  = dpi(4)
-theme.border_normal = "#EA17DA"
-theme.border_focus  = "#3E5D7C"
+theme.useless_gap   = dpi(1)
+theme.border_width  = dpi(2)
+theme.border_normal = "#B11FE3"
+theme.border_focus  = "#7F9F7F"
 theme.border_marked = "#7F9F7F"
 -- }}}
 
@@ -44,7 +44,7 @@ theme.taglist_fg_occupied = "#11E811"
 theme.taglist_fg_urgent   = "#ED7572"
 theme.taglist_fg_empty    = "#66DCF3"
 theme.taglist_spacing     = 3
-theme.taglist_font = "awesomewm-font 13"
+theme.taglist_font = "awesomewm-font 10"
 -- }}}
 
 
@@ -55,22 +55,22 @@ theme.taglist_font = "awesomewm-font 13"
 -- titlebar_[normal|focus]
 -- tooltip_[font|opacity|fg_color|bg_color|border_width|border_color]
 -- Example:
---theme.taglist_bg_focus = "#CC9393"
+--theme.taglist_bg_focus = "#000000"
 -- }}}
 
 -- {{{ Widgets
 -- You can add as many variables as
 -- you wish and access them by using
 -- beautiful.variable in your rc.lua
---theme.fg_widget        = "#AECF96"
+--theme.fg_widget        = "#7F9F7F"
 --theme.fg_center_widget = "#88A175"
 --theme.fg_end_widget    = "#FF5656"
 --theme.bg_widget        = "#494B4F"
---theme.border_widget    = "#3F3F3F"
+--theme.border_widget    = "#7F9F7F"
 -- }}}
 
 -- {{{ Mouse finder
-theme.mouse_finder_color = "#CC9393"
+theme.mouse_finder_color = "#"
 -- mouse_finder_[timeout|animate_timeout|radius|factor]
 -- }}}
 
@@ -78,8 +78,8 @@ theme.mouse_finder_color = "#CC9393"
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_height = dpi(15)
-theme.menu_width  = dpi(100)
+theme.menu_height = dpi(20)
+theme.menu_width  = dpi(120)
 -- }}}
 
 -- {{{ Icons
